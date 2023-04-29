@@ -26,7 +26,7 @@ namespace LoggerService
             logger.Warn(message);
         }
         private string GetMessage(){
-        return "Hello Gits";
+        return "Hello Git";
         }
     }
 }
