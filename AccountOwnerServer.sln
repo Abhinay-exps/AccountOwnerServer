@@ -3,21 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApiProject", "DemoWebApiProject\DemoWebApiProject.csproj", "{A229EBA4-EEB0-4AEF-9073-FF5A887E75EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoWebApiProject", "DemoWebApiProject\DemoWebApiProject.csproj", "{A229EBA4-EEB0-4AEF-9073-FF5A887E75EC}"
 	ProjectSection(ProjectDependencies) = postProject
 		{C7DDBB82-62F4-49F9-8161-A035B9F47C76} = {C7DDBB82-62F4-49F9-8161-A035B9F47C76}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{1B37E9F5-D062-467B-A3DB-A48DAB1C346C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{1B37E9F5-D062-467B-A3DB-A48DAB1C346C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{C7DDBB82-62F4-49F9-8161-A035B9F47C76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{C7DDBB82-62F4-49F9-8161-A035B9F47C76}"
 	ProjectSection(ProjectDependencies) = postProject
 		{1B37E9F5-D062-467B-A3DB-A48DAB1C346C} = {1B37E9F5-D062-467B-A3DB-A48DAB1C346C}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{28DA577E-AA67-484D-85B7-9406FA859C55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{28DA577E-AA67-484D-85B7-9406FA859C55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{B6F2A758-99D3-4EE8-8A31-6AE351A8F0F5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{B6F2A758-99D3-4EE8-8A31-6AE351A8F0F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoWebApiProject.WebTest", "DemoWebApiProject.WebTest\DemoWebApiProject.WebTest.csproj", "{85F84CF6-1DDE-4D08-A9BD-32C4F9AB13CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B6F2A758-99D3-4EE8-8A31-6AE351A8F0F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6F2A758-99D3-4EE8-8A31-6AE351A8F0F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6F2A758-99D3-4EE8-8A31-6AE351A8F0F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85F84CF6-1DDE-4D08-A9BD-32C4F9AB13CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85F84CF6-1DDE-4D08-A9BD-32C4F9AB13CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85F84CF6-1DDE-4D08-A9BD-32C4F9AB13CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85F84CF6-1DDE-4D08-A9BD-32C4F9AB13CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
