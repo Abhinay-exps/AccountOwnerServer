@@ -38,7 +38,7 @@ steps:
   displayName: Test
   inputs:
     command: 'test'
-    projects: '**/*.WebTest.csproj'
+    projects: '**/*WebTest.csproj'
     arguments: '/p:CollectCoverage=true /p:CoverletOutputFormat=cobertura /p CoverletOutput=./MyCoverage/'
     publishTestResults: true
 
