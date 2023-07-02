@@ -17,5 +17,5 @@ jobs:
       uses: Azure/pipelines@v1
       with:
        azure-devops-project-url: https://dev.azure.com/abhinaygunna/TechSup400
-       azure-pipeline: 'AccountOwnerServer'
+       azure-pipeline-name: 'AccountOwnerServer'
        azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
