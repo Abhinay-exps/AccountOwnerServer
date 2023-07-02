@@ -9,7 +9,7 @@ namespace DemoWebApiProject.WebTest
         public void CheckAddFunction()
         {
             var functions = new Functions();
-            Assert.True(3 == functions.Add(1, 2),"returned right result");
+            Assert.True(4 == functions.Add(2, 2),"returned right result");
         }
     }
 }
